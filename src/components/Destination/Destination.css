@@ -1,0 +1,32 @@
+.destiation-section{
+    position: relative;
+    top: 900px;
+    background-color: rgb(212, 211, 203);
+
+
+}
+.destiation-section  img{
+    /* position: relative; */
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* z-index: -1; */
+    margin-top: 50px;
+
+}
+
+.des-title h5{
+    position: absolute;
+    margin-top: 140px;
+    /* z-index: 2; */
+    margin-left: 1%;
+    color: white;
+    line-height:normal;
+    /* align-content: center; */
+}
+.des-heading{
+    position: relative;
+    top: 800px;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.top-facilities{
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:black;
+    
+}
+.facilities-section{
+    position: relative;
+    top: 950px;
+}
+.facilities-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+.top-facilities:hover{
+    
+   color:gold;
+}
+.text-facilities:hover{   
+    
+   color:gold;
+}
+
+.facilities-content h3{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.facilities-content p{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 200px;
+    margin-left: 50px;
+}
+.facilities-content h3:hover{
+   color: chartreuse;
+}
+.icon{
+    color: lightgreen;
+    font-size: 40px;
+
+}

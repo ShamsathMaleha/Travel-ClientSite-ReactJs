@@ -1,0 +1,13 @@
+.cards{
+    width:70%;
+    height: 25%;
+}
+.texts-colors{
+    color: goldenrod;
+}
+.services:hover{
+    /* z-index: 1; */
+    box-shadow: 0 8px 50px rgba(0,0,0, 0.2);
+    transform: scale(1.05);
+    background-color:rgb(175, 218, 235);
+}
