@@ -12,7 +12,7 @@ const PlaceHolder = () => {
     const { id } = useParams()
     const [service, setService] = useState({})
     const history = useHistory()
-    // const [status, set]
+   
     useEffect(() => {
         // addToDb(aId)
         const url = `https://frozen-wildwood-00967.herokuapp.com/services/${id}`
@@ -77,7 +77,6 @@ const PlaceHolder = () => {
                                 {errors.phone && <p className="text-white">Please Enter your phone</p>}
 
                                 <input placeholder="Address" {...register('address', { required: true })} />
-                                {/* {errors.s_id && <p className="text-white "><small>Please click in the box</small></p> */}
                                 <input placeholder="YYYY-MM-DD" {...register('date', { pattern: /\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])/ })} />
                                 {errors.place && <p className="text-white">Please Enter place</p>}
 
